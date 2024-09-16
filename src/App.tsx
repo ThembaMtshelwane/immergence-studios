@@ -1,5 +1,5 @@
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">Hello Immergence Studios!</h1>
+    <section className="bg-background min-h-screen bg-no-repeat bg-center bg-cover "></section>
   );
 }
