@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="text-white h-screen flex justify-center relative border-2 border-blue-300">
+    <div className=" h-screen flex justify-center relative">
       <video
         src="2.mp4"
         autoPlay

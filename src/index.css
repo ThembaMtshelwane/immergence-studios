@@ -13,7 +13,7 @@
     font-family: "Ubuntu Mono";
   }
   h2 {
-    @apply text-5xl uppercase tracking-wider mb-5;
+    @apply text-5xl sm:text-6xl uppercase tracking-wider mb-5;
   }
   .embla {
     overflow: hidden;
@@ -25,6 +25,6 @@
     flex: 0 0 100%;
     min-width: 0;
     height: "150px";
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 }

@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section className="h-screen relative flex items-center ">
-      <section className="hidden md:block h-full w-[50%] border-2">
+      <section className="hidden md:block h-full w-[50%] ">
         <video
           src="3.mp4"
           autoPlay
