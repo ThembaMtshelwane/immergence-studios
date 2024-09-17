@@ -1,0 +1,27 @@
+const Hero = () => {
+  return (
+    <div className="text-white h-screen flex justify-center relative border-2 border-blue-300">
+      <video
+        src="2.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="h-full w-full object-cover object-center"
+      />
+      <h1 className="absolute h-[50%] w-[90%] grid items-center justify-center text-center grid-rows-6 text-5xl font-ubuntuMono sm:text-7xl lg:text-9xl uppercase text-glitch">
+        <span className="animate-slidein300 opacity-0  row-[2/4] md:row-[2/4]">
+          Welcome
+        </span>
+        <span className="animate-slidein500 opacity-0  row-[4/5] md:row-[4/5]">
+          to
+        </span>
+        <span className="animate-slidein700 opacity-0  row-[5/6] md:row-[5/7]">
+          IMMERGENCE
+        </span>
+      </h1>
+    </div>
+  );
+};
+
+export default Hero;
