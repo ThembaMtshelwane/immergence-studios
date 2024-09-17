@@ -27,6 +27,12 @@ export default {
         slidein500: "slidein 1s ease 700ms forwards",
         slidein700: "slidein 1s ease 1200ms forwards",
       },
+      gridTemplateColumns: {
+        flow: "repeat(auto-fit,100px)",
+      },
+      gridTemplateRows: {
+        flow: "repeat(auto-fit,100px)",
+      },
     },
   },
   plugins: [require("@designbycode/tailwindcss-text-glitch")],

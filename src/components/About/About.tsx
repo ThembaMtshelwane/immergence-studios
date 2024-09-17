@@ -18,7 +18,7 @@ const About = () => {
         />
       </section>
       <section className="absolute text-white font-ubuntuMono p-5 w-[90%] md:relative md:w-[40%] mx-auto ">
-        <h2 className="text-5xl uppercase tracking-wider mb-5">Immergence</h2>
+        <h2>Immergence</h2>
         <p className="text-xl text-justify">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis nam
           iste saepe rerum a eius, ex mollitia quasi at similique, et suscipit

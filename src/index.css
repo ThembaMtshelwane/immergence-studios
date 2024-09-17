@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,6 +9,11 @@
   html {
     scroll-behavior: smooth;
     scrollbar-width: none;
+    color: white;
+    font-family: "Ubuntu Mono";
+  }
+  h2 {
+    @apply text-5xl uppercase tracking-wider mb-5;
   }
   .embla {
     overflow: hidden;
@@ -18,8 +23,8 @@
   }
   .embla__slide {
     flex: 0 0 100%;
-    height: 100vh;
     min-width: 0;
+    height: "150px";
     border: 2px solid red;
   }
 }
