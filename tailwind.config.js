@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        background: 'url("background.png")',
-        footerbg: 'url("footer.jpg")',
+        background: 'url("/background.png")',
+        footerbg: 'url("/footer.jpg")',
       },
       fontFamily: {
         pixelify: ["Pixelify Sans", "sans-serif"],

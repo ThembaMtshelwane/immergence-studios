@@ -47,7 +47,11 @@ const Products = () => {
         </section>
         <section className="grid grid-cols-flow grid-rows-flow gap-4 p-3 justify-center sm:w-[30%]">
           {data.map((avatar: AnimatorIcon) => (
-            <AnimatorAvatar data={avatar} setProjects={setProjects} />
+            <AnimatorAvatar
+              key={avatar.service}
+              data={avatar}
+              setProjects={setProjects}
+            />
           ))}
         </section>
       </section>
