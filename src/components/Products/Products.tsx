@@ -38,7 +38,10 @@ const Products = () => {
   const [projects, setProjects] = useState<string[]>(projects1);
 
   return (
-    <section className="relative min-h-screen  grid grid-rows-[1fr_5fr] sm:grid-rows-[2fr_5fr]  z-10">
+    <section
+      className="relative min-h-screen  grid grid-rows-[1fr_5fr] sm:grid-rows-[2fr_5fr]  z-10 "
+      id="products"
+    >
       <div className="absolute top-0 h-full w-full backdrop-blur-md -z-10"></div>
       <h2 className=" flex justify-self-center my-auto">Products</h2>
       <section className=" sm:flex">

@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="h-screen relative flex items-center ">
+    <section className="h-screen relative flex items-center" id="about">
       <section className="hidden md:block h-full w-[50%] ">
         <video
           src="artists/1/2.mp4"
