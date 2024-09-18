@@ -2,7 +2,13 @@ const About = () => {
   return (
     <section className="h-screen relative flex items-center ">
       <section className="hidden md:block h-full w-[50%] ">
-        <video src="3.mp4" loop className="h-full w-full object-cover"></video>
+        <video
+          src="3.mp4"
+          autoPlay
+          loop
+          muted
+          className="h-full w-full object-cover"
+        ></video>
       </section>
       <section className="h-full w-full md:hidden">
         <img
