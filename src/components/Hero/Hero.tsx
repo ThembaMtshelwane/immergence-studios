@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div className=" h-screen flex justify-center relative">
       <video
-        src="2.mp4"
+        src="hero.mp4"
         autoPlay
         muted
         loop
