@@ -18,13 +18,27 @@ const About = () => {
         />
       </section>
       <section className="absolute text-white font-ubuntuMono p-5 w-[90%] md:relative md:w-[40%] mx-auto ">
-        <h2>Immergence</h2>
+        <h2>About</h2>
         <p className="text-xl text-justify">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis nam
-          iste saepe rerum a eius, ex mollitia quasi at similique, et suscipit
-          fugiat non rem, aliquam facere unde aspernatur error molestiae? Dolor
-          rem laudantium suscipit, maxime soluta ab sint nobis quaerat similique
-          cupiditate quam voluptatem aspernatur cumque dicta voluptas assumenda.
+          Immergence Studios, found
+          <span className="hidden-msg">e</span>d in 2030 and based in the heart
+          of South Africa, is a trailblazing {""}{" "}
+          <span className="hidden-msg">c</span>
+          reative powerhouse known for its cutting-edge storytelling. With a
+          team of {""} <span className="hidden-msg">m</span>asterful animators,
+          we bring bold, award-winning projects to life, including our flagship
+          show Immergence. Our studio thrives on a spirit of {""}{" "}
+          <span className="hidden-msg">e</span>xcellence, pushing the boundaries
+          of animation to craft immersive worlds. From daring visual effects to
+          deeply e<span className="hidden-msg">m</span>otional {""}{" "}
+          <span className="hidden-msg">n</span>arratives, we turn {""}{" "}
+          <span className="hidden-msg">i</span>magination into reality.
+          {""} <span className="hidden-msg">R</span>evolutionary ideas meet
+          artistry here, ensuring never-before-seen quality and captivating
+          stories that resonate worldwide. Our exp
+          <span className="hidden-msg">e</span>rt team drives innovation across
+          the <span className="hidden-msg">g</span>
+          lobe.
         </p>
       </section>
     </section>

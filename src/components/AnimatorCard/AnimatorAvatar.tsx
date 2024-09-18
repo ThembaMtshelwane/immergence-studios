@@ -16,7 +16,9 @@ const AnimatorAvatar = ({ data, setProjects }: Props) => {
         alt=""
         className="h-full w-full object-cover object-center"
       />
-      <h3 className="absolute text-3xl skew-y-[17deg]  ">{data.service}</h3>
+      <h3 className=" text-glitch text-glitch-duration-md absolute text-3xl skew-y-[17deg]  ">
+        {data.service}
+      </h3>
     </section>
   );
 };

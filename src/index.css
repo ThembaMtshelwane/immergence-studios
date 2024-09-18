@@ -15,6 +15,10 @@
   h2 {
     @apply text-5xl sm:text-6xl uppercase tracking-wider mb-5;
   }
+
+  .hidden-msg {
+    @apply text-glitch text-glitch-duration-slow;
+  }
   .embla {
     overflow: hidden;
   }

@@ -8,7 +8,7 @@ const Footer = () => {
             href="#"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="text-glitch self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
               IMMERGENCE
             </span>
           </a>

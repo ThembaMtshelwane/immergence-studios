@@ -2,6 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    duration: {
+      fast: "1s",
+      normal: "3s",
+      slow: "60s",
+      md: "7s",
+    },
     extend: {
       backgroundImage: {
         background: 'url("/background.png")',
