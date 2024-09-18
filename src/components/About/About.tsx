@@ -3,7 +3,7 @@ const About = () => {
     <section className="h-screen relative flex items-center ">
       <section className="hidden md:block h-full w-[50%] ">
         <video
-          src="3.mp4"
+          src="artists/1/2.mp4"
           autoPlay
           loop
           muted
