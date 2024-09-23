@@ -9,7 +9,7 @@ const Hero = () => {
         playsInline
         className="h-full w-full object-cover object-center"
       />
-      <h1 className="absolute h-[50%] w-[90%] grid lg:gap-20 items-center justify-center text-center grid-rows-6 text-5xl font-ubuntuMono sm:text-7xl lg:text-9xl uppercase ">
+      <h1 className="absolute h-[50%] w-[90%] grid lg:gap-20 items-center justify-center text-center grid-rows-6 text-6xl font-ubuntuMono sm:text-7xl lg:text-9xl uppercase ">
         <span className="animate-slidein300 opacity-0  row-[2/4] md:row-[2/4]">
           Welcome
         </span>

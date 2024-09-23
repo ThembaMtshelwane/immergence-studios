@@ -17,9 +17,9 @@ const About = () => {
           className="w-full h-full object-cover object-center"
         />
       </section>
-      <section className="absolute text-white font-ubuntuMono p-5 w-[90%] md:relative md:w-[40%] mx-auto ">
+      <section className="absolute text-white font-ubuntuMono p-5 flex flex-col items-center md:relative md:w-[40%] mx-auto ">
         <h2>About</h2>
-        <p className="text-xl text-justify">
+        <p className="text-xl text-justify border-2">
           Immergence Studios, found
           <span className="hidden-msg">e</span>d in 2030 and based in the heart
           of South Africa, is a trailblazing {""}{" "}
