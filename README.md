@@ -17,6 +17,11 @@ The website design is custom-made, with particular attention to selecting images
 
 Building this website has been a valuable learning experience, particularly in choosing visuals that complement the design and enhance the user experience. I added background music tp tie the theme all together. I also gained more proficiency with React, TypeScript, and Tailwind CSS.
 
+- Creating a design and theme.
+- Using the staggered text effect.
+- Using thee glitch text effect.
+- Using background music.
+
 ## Limitations
 
 The curent website does not include all its features, i.e. a section showcaing the contact section.
