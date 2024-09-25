@@ -10,6 +10,7 @@ export default {
     },
     extend: {
       screens: {
+        xsm: "580px",
         lmd: "880px",
       },
       backgroundImage: {
