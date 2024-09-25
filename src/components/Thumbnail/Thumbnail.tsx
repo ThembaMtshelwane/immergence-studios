@@ -4,11 +4,13 @@ type Props = {
   animator: AnimatorIcon;
   setProjects: (projectsn: string[]) => void;
   setAnimator: (animator: AnimatorIcon) => void;
+  id: string;
 };
 
-const Thumbnail = ({ animator, setProjects, setAnimator }: Props) => {
+const Thumbnail = ({ animator, setProjects, setAnimator, id }: Props) => {
   return (
-    <section
+    <a
+      href={`#${id}`}
       className="relative h-[20vh] lmd:h-full cursor-pointer hover:scale-105 flex items-center justify-center"
       onClick={() => {
         setProjects(animator.projects);
@@ -21,7 +23,7 @@ const Thumbnail = ({ animator, setProjects, setAnimator }: Props) => {
         className="h-full w-full object-cover object-center"
       />
       <h3 className="absolute text-lg skew-y-[17deg]  ">{animator.service}</h3>
-    </section>
+    </a>
   );
 };
 

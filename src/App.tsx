@@ -9,7 +9,7 @@ import { AnimatorIcon } from "./definitions";
 
 export default function App() {
   const [projects, setProjects] = useState<string[]>(data[0].projects);
-  const [animator, setAnimator] = useState<AnimatorIcon | undefined>();
+  const [animator, setAnimator] = useState<AnimatorIcon | undefined>(data[0]);
 
   return (
     <section className=" bg-background min-h-screen bg-no-repeat z-10 bg-center bg-cover ">
