@@ -15,7 +15,7 @@ The website design is custom-made, with particular attention to selecting images
 
 ## What I Learned
 
-Building this website has been a valuable learning experience, particularly in choosing visuals that complement the design and enhance the user experience. I also gained more proficiency with React, TypeScript, and Tailwind CSS.
+Building this website has been a valuable learning experience, particularly in choosing visuals that complement the design and enhance the user experience. I added background music tp tie the theme all together. I also gained more proficiency with React, TypeScript, and Tailwind CSS.
 
 ## Limitations
 
@@ -52,3 +52,9 @@ To run this project locally:
    ```
 
 4. Open your browser and navigate to http://localhost:3000 to view the website.
+
+## Credits
+
+All visual media assets used were found on Pinterest. Visit my Pinterest board [here](https://za.pinterest.com/thembamtshelwane/immergence-studios-demo/) to view and credit the artists.
+
+The song is [Digital Battleground by Night Rider 87](https://artlist.io/royalty-free-music/song/digital-battleground/77628)

@@ -6,6 +6,7 @@ import Products from "./components/Products/Products";
 import Team from "./components/Team/Team";
 import { data } from "./data";
 import { AnimatorIcon } from "./definitions";
+import BackgroundMusic from "./BackgroundMusic";
 
 export default function App() {
   const [projects, setProjects] = useState<string[]>(data[0].projects);
@@ -13,6 +14,7 @@ export default function App() {
 
   return (
     <section className=" bg-background min-h-screen bg-no-repeat z-10 bg-center bg-cover ">
+      <BackgroundMusic />
       <Hero />
       <About />
       <Products
