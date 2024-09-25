@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { EmblaCarousel } from "../EmblaCarousel";
-import AnimatorAvatar from "../AnimatorCard/AnimatorAvatar";
 import { AnimatorIcon } from "../../definitions";
+import Thumbnail from "../Thumbnail/Thumbnail";
 
 const projects1 = ["artists/1/1.mp4", "artists/1/2.mp4", "artists/1/3.mp4"];
 const projects2 = [
@@ -48,9 +48,9 @@ const Products = () => {
         <section className="sm:w-[70%]">
           <EmblaCarousel projects={projects} />
         </section>
-        <section className="grid grid-cols-flow grid-rows-flow gap-4 p-3 justify-center sm:w-[30%]">
+        <section className="grid grid-cols-4 gap-4 p-3 justify-center sm:w-[30%] sm:grid-cols-1 lmd:w-[45%] lmd:grid-rows-flow lmd:grid-cols-flow border-2">
           {data.map((avatar: AnimatorIcon) => (
-            <AnimatorAvatar
+            <Thumbnail
               key={avatar.service}
               data={avatar}
               setProjects={setProjects}

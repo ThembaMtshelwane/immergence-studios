@@ -9,6 +9,9 @@ export default {
       md: "7s",
     },
     extend: {
+      screens: {
+        lmd: "880px",
+      },
       backgroundImage: {
         background: 'url("/background.png")',
         footerbg: 'url("/footer.jpg")',
@@ -35,10 +38,10 @@ export default {
         slidein700: "slidein 1s ease 1200ms forwards",
       },
       gridTemplateColumns: {
-        flow: "repeat(auto-fit,100px)",
+        flow: "repeat(auto-fit,60px)",
       },
       gridTemplateRows: {
-        flow: "repeat(auto-fit,100px)",
+        flow: "repeat(auto-fit,60px)",
       },
     },
   },
