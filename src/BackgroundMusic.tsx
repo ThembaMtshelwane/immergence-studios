@@ -11,6 +11,7 @@ const BackgroundMusic: React.FC = () => {
         console.error("Error playing audio:", error);
       });
       setIsPlaying(true);
+      audioRef.current.volume = 0.1;
     }
   };
 
