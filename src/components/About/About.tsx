@@ -1,10 +1,10 @@
 const About = () => {
   return (
     <section
-      className="min-h-screen py-10 md:h-screen relative flex items-center"
+      className="min-h-screen py-10 md:py-0 lg:h-screen relative flex items-center"
       id="about"
     >
-      <section className="hidden md:flex md:h-screen w-[50%] ">
+      <section className="hidden md:flex md:h-full  w-[50%] ">
         <video
           src="artists/surreal/2.mp4"
           autoPlay
@@ -22,7 +22,7 @@ const About = () => {
       </section>
       <section className="h-full z-10 text-white font-ubuntuMono p-3 flex flex-col items-center justify-center  md:relative xsm:w-[80%] md:w-[45%] mx-auto ">
         <h2>About</h2>
-        <p className="text-lg text-justify">
+        <p className="text-lg text-justify lg:text-xl">
           Immergence Studios, found
           <span className="hidden-msg">e</span>d in 2030 and based in the heart
           of South Africa, is a trailblazing {""}{" "}
