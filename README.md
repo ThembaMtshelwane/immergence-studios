@@ -19,7 +19,7 @@ Building this website has been a valuable learning experience, particularly in c
 
 ## Limitations
 
-The curent website does not include all its features, i.e. a section showcaing the team and the contact section.
+The curent website does not include all its features, i.e. a section showcaing the contact section.
 
 ## Live Website
 
