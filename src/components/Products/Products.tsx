@@ -7,8 +7,15 @@ import { data } from "../../data";
 type ProductsProps = {
   projects: string[];
   setProjects: (projectsn: string[]) => void;
+  animator: AnimatorIcon | undefined;
+  setAnimator: (animator: AnimatorIcon) => void;
 };
-const Products = ({ projects, setProjects }: ProductsProps) => {
+const Products = ({
+  projects,
+  setProjects,
+  animator,
+  setAnimator,
+}: ProductsProps) => {
   return (
     <section
       className="relative min-h-screen  grid grid-rows-[1fr_5fr] sm:grid-rows-[2fr_5fr]  z-10 "
@@ -22,16 +29,17 @@ const Products = ({ projects, setProjects }: ProductsProps) => {
         </section>
         <section className="border-2 border-blue-500 sm:w-[30%]  lmd:w-[45%] flex flex-col">
           <section className="grid grid-cols-4 gap-4 p-3 justify-center sm:h-full lmd:h-fit sm:grid-cols-1 lmd:grid-rows-flow lmd:grid-cols-flow border-2">
-            {data.map((avatar: AnimatorIcon) => (
+            {data.map((animator: AnimatorIcon) => (
               <Thumbnail
-                key={avatar.service}
-                data={avatar}
+                key={animator.service}
+                animator={animator}
                 setProjects={setProjects}
+                setAnimator={setAnimator}
               />
             ))}
           </section>
           <section className="hidden border-2 border-green-600 flex-1 lmd:flex">
-            <Team2 />
+            <Team2 animator={animator} />
           </section>
         </section>
       </section>

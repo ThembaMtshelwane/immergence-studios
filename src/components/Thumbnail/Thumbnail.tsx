@@ -1,22 +1,26 @@
 import { AnimatorIcon } from "../../definitions";
 
 type Props = {
-  data: AnimatorIcon;
+  animator: AnimatorIcon;
   setProjects: (projectsn: string[]) => void;
+  setAnimator: (animator: AnimatorIcon) => void;
 };
 
-const Thumbnail = ({ data, setProjects }: Props) => {
+const Thumbnail = ({ animator, setProjects, setAnimator }: Props) => {
   return (
     <section
       className="relative h-[20vh] lmd:h-full cursor-pointer hover:scale-105 flex items-center justify-center"
-      onClick={() => setProjects(data.projects)}
+      onClick={() => {
+        setProjects(animator.projects);
+        setAnimator(animator);
+      }}
     >
       <img
-        src={data.avatar}
+        src={animator.avatar}
         alt=""
         className="h-full w-full object-cover object-center"
       />
-      <h3 className="absolute text-lg skew-y-[17deg]  ">{data.service}</h3>
+      <h3 className="absolute text-lg skew-y-[17deg]  ">{animator.service}</h3>
     </section>
   );
 };
