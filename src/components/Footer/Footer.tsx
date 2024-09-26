@@ -51,7 +51,10 @@ const Footer = () => {
         </p>
         <span className="block text-md text-gray-500  dark:text-gray-400 mb-auto text-center ">
           © {currentYear}{" "}
-          <a href="https://flowbite.com/" className="hover:underline">
+          <a
+            href="https://github.com/ThembaMtshelwane"
+            className="hover:underline"
+          >
             ThembaMM3
           </a>
         </span>
