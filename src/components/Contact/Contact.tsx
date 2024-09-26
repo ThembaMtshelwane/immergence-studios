@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section className="h-screen flex mt-14" id="contact">
+    <section className="min-h-screen flex mt-14" id="contact">
       <div className=" my-auto py-8 lg:pt-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-12 text-center">Contact Us</h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
