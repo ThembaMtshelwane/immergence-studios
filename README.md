@@ -19,8 +19,10 @@ Building this website has been a valuable learning experience, particularly in c
 
 - Creating a design and theme.
 - Using the staggered text effect.
-- Using thee glitch text effect.
+- Using the glitch text effect.
 - Using background music.
+- Using Email.js for the contact form
+- Using Flowbite footer component for building UI quickly
 
 ## Limitations
 
