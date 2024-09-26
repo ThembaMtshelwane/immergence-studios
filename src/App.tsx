@@ -7,6 +7,7 @@ import Team from "./components/Team/Team";
 import { data } from "./data";
 import { AnimatorIcon } from "./definitions";
 import BackgroundMusic from "./BackgroundMusic";
+import Contact from "./components/Contact/Contact";
 
 export default function App() {
   const [projects, setProjects] = useState<string[]>(data[0].projects);
@@ -28,6 +29,7 @@ export default function App() {
         setAnimator={setAnimator}
         animator={animator}
       />
+      <Contact />
       <Footer />
     </section>
   );
