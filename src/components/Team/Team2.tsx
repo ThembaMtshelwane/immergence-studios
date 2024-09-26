@@ -9,8 +9,8 @@ const Team2 = ({ animator }: Team2Props) => {
     <>
       {animator && (
         <section className="flex flex-col items-center justify-center">
-          <section className="grid lg:grid-cols-4 w-[90%]">
-            <section className="mx-auto lg:col-span-2 lg:row-span-2 h-[220px] w-full">
+          <section className="grid lg:grid-cols-4 grid-rows-[350px_0.5fr_2fr] w-[90%] lg:grid-rows-2">
+            <section className="mx-auto lg:col-span-2 lg:row-span-2 w-full h-full">
               <img
                 src={animator.imageURL}
                 alt=""
@@ -18,12 +18,12 @@ const Team2 = ({ animator }: Team2Props) => {
               />
             </section>
 
-            <section className="my-3 lg:col-span-2  lg:mx-2">
+            <section className="my-3 lg:col-span-2  lg:mx-2 lg:row-span-2 lg:my-auto">
               <h3 className="text-2xl xl:text-4xl">{animator.name}</h3>
               <h4 className="text-xl"> {animator.role}</h4>
             </section>
 
-            <section className="lg:col-span-4 lg:row-span-2 lg:my-3">
+            <section className="lg:col-span-4 lg:row-span-2 lg:my-3 h-[250px]">
               <p className="text-justify text-[17px] lg:text-lg xl:text-xl">
                 {animator.description}
               </p>
