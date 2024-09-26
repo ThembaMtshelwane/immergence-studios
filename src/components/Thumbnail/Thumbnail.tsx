@@ -11,7 +11,7 @@ const Thumbnail = ({ animator, setProjects, setAnimator, id }: Props) => {
   return (
     <a
       href={`#${id}`}
-      className="relative h-[20vh] lmd:h-full cursor-pointer hover:scale-105 flex items-center justify-center"
+      className="relative h-[23.5vh] lmd:h-full cursor-pointer hover:scale-105 flex items-center justify-center"
       onClick={() => {
         setProjects(animator.projects);
         setAnimator(animator);
