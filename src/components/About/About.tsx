@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section
-      className="min-h-screen py-10 md:py-0 lg:h-screen relative flex items-center"
+      className="h-screen py-10 md:py-0 lg:h-screen relative flex items-center"
       id="about"
     >
       <section className="hidden md:flex md:h-full  w-[50%] lg:w-[70%]">

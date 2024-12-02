@@ -45,6 +45,7 @@ const Footer = () => {
           <a
             href="https://github.com/ThembaMtshelwane/immergence-studios"
             className="text-red-600"
+            target="_blank"
           >
             github
           </a>
@@ -53,6 +54,7 @@ const Footer = () => {
           © {currentYear}{" "}
           <a
             href="https://github.com/ThembaMtshelwane"
+            target="_blank"
             className="hover:underline"
           >
             ThembaMM3
