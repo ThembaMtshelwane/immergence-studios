@@ -1,7 +1,7 @@
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className=" mt-20 backdrop-blur-sm">
+    <footer className=" mt-20 backdrop-blur-sm w-[90%] mx-auto">
       <div className="w-full p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a

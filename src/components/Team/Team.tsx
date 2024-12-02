@@ -13,16 +13,16 @@ const Team = ({ setProjects, setAnimator, animator }: TeamProps) => {
     <>
       {animator && (
         <section
-          className="lmd:hidden min-h-screen md:h-screen grid items-center grid-rows-[1fr_4fr_1fr] xsm:grid-rows-[1fr_2fr_1fr] md:grid-rows-[1fr_2.5fr_1fr] border"
+          className="lmd:hidden min-h-screen md:h-screen grid items-center grid-rows-[1fr_4fr_1fr] xsm:grid-rows-[1fr_2fr_1fr] md:grid-rows-[1fr_2.5fr_1fr] "
           id="teamSection"
         >
-          <h2 className="text-center border border-red-400" id="team">
+          <h2 className="text-center" id="team">
             Meet the team
           </h2>
 
           <section
             id="teamMember"
-            className="px-4 grid border border-blue-600  xms:grid-rows-4 xsm:grid-cols-4 xsm:w-[80%] justify-self-center"
+            className="px-4 grid   xms:grid-rows-4 xsm:grid-cols-4 xsm:w-[80%] justify-self-center"
           >
             <section className="xsm:col-span-2 xsm:row-span-2 h-[250px]  w-full">
               <img
@@ -37,14 +37,14 @@ const Team = ({ setProjects, setAnimator, animator }: TeamProps) => {
               <h4 className="text-xl"> {animator.role}</h4>
             </section>
 
-            <section className="xsm:col-span-4 xsm:row-span-2 xsm:my-4">
+            <section className="xsm:col-span-4 xsm:row-span-2 xsm:my-4 h-[460px] xsm:h-[230px]">
               <p className="text-center xsm:text-justify text-xl">
                 {animator.description}
               </p>
             </section>
           </section>
 
-          <section className="grid grid-cols-4 gap-4 p-3 border border-yellow-300">
+          <section className="grid grid-cols-4 gap-4 p-3">
             {data.map((avatar: AnimatorIcon) => (
               <Thumbnail
                 key={avatar.service}
