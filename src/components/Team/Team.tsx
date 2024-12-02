@@ -12,18 +12,21 @@ const Team = ({ setProjects, setAnimator, animator }: TeamProps) => {
   return (
     <>
       {animator && (
-        <section className="lmd:hidden min-h-screen grid items-center grid-rows-[1fr_4fr_1fr] xsm:grid-rows-[1fr_2fr_1fr] md:grid-rows-[1.5fr_2fr_1fr]">
-          <h2 className="text-center" id="team">
+        <section
+          className="lmd:hidden min-h-screen md:h-screen grid items-center grid-rows-[1fr_4fr_1fr] xsm:grid-rows-[1fr_2fr_1fr] md:grid-rows-[1fr_2.5fr_1fr] border"
+          id="teamSection"
+        >
+          <h2 className="text-center border border-red-400" id="team">
             Meet the team
           </h2>
 
           <section
             id="teamMember"
-            className="px-4 grid  xms:grid-rows-4 xsm:grid-cols-4 xsm:w-[80%] justify-self-center"
+            className="px-4 grid border border-blue-600  xms:grid-rows-4 xsm:grid-cols-4 xsm:w-[80%] justify-self-center"
           >
             <section className="xsm:col-span-2 xsm:row-span-2 h-[250px]  w-full">
               <img
-                src={animator.imageURL}
+                src={animator.imageURL || "/artists/placeholder.png"}
                 alt=""
                 className="h-full w-full object-cover object-center"
               />
@@ -35,18 +38,20 @@ const Team = ({ setProjects, setAnimator, animator }: TeamProps) => {
             </section>
 
             <section className="xsm:col-span-4 xsm:row-span-2 xsm:my-4">
-              <p className="text-justify text-xl">{animator.description}</p>
+              <p className="text-center xsm:text-justify text-xl">
+                {animator.description}
+              </p>
             </section>
           </section>
 
-          <section className="grid grid-cols-4 gap-4 p-3 xsm:w-[80%] justify-self-center">
+          <section className="grid grid-cols-4 gap-4 p-3 border border-yellow-300">
             {data.map((avatar: AnimatorIcon) => (
               <Thumbnail
                 key={avatar.service}
                 animator={avatar}
                 setProjects={setProjects}
                 setAnimator={setAnimator}
-                id={"teamMember"}
+                id={"team"}
               />
             ))}
           </section>
