@@ -14,23 +14,39 @@ export default function App() {
   const [animator, setAnimator] = useState<AnimatorIcon | undefined>(data[0]);
 
   return (
-    <section className=" bg-background min-h-screen bg-no-repeat z-10 bg-center bg-cover ">
+    // <section
+    //   className="h-screen overflow-y-scroll bg-background bg-no-repeat bg-center bg-cover snap-y snap-mandatory scroll-smooth"
+    // >
+    <section className="bg-background bg-no-repeat bg-center bg-cover scroll-smooth">
       <BackgroundMusic />
-      <Hero />
-      <About />
-      <Products
-        projects={projects}
-        setProjects={setProjects}
-        animator={animator}
-        setAnimator={setAnimator}
-      />
-      <Team
-        setProjects={setProjects}
-        setAnimator={setAnimator}
-        animator={animator}
-      />
-      <Contact />
-      <Footer />
+      <div className="snap-center min-h-screen">
+        <Hero />
+      </div>
+      <div className="snap-center min-h-screen">
+        <About />
+      </div>
+      <div className="snap-center min-h-screen">
+        <Products
+          projects={projects}
+          setProjects={setProjects}
+          animator={animator}
+          setAnimator={setAnimator}
+        />
+      </div>
+      <div className="snap-center min-h-screen lmd:hidden">
+        <Team
+          setProjects={setProjects}
+          setAnimator={setAnimator}
+          animator={animator}
+        />
+      </div>
+      <div className="snap-center min-h-screen">
+        <Contact />
+      </div>
+
+      <div className="snap-center ">
+        <Footer />
+      </div>
     </section>
   );
 }

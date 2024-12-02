@@ -8,7 +8,7 @@ export function EmblaCarousel({ projects }: Projects) {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
   return (
-    <div className="embla b h-full" ref={emblaRef}>
+    <div className="embla h-full" ref={emblaRef}>
       <div className="embla__container h-[70vh] max-h-screen sm:h-screen ">
         {projects.map((project: string, index: number) => (
           <div className="embla__slide" key={index}>

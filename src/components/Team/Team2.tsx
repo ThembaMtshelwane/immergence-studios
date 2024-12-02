@@ -9,7 +9,7 @@ const Team2 = ({ animator }: Team2Props) => {
     <>
       {animator && (
         <section className="flex flex-col items-center justify-center h-full w-full">
-          <section className="grid lg:grid-cols-4 grid-rows-[350px_0.5fr_2fr] w-[90%] max-w-[550px] lg:grid-rows-2  h-fit">
+          <section className="grid lg:grid-cols-4 grid-rows-[350px_0.5fr_2fr] w-[90%] max-w-[650px] lg:grid-rows-2  h-fit">
             <section className="mx-auto lg:col-span-2 lg:row-span-2 w-full h-full py-4">
               <img
                 src={animator.imageURL || "/artists/placeholder.png"}

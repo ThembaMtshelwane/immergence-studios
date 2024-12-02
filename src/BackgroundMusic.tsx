@@ -23,7 +23,7 @@ const BackgroundMusic: React.FC = () => {
   };
 
   return (
-    <div className=" absolute z-10 w-full flex">
+    <div className=" absolute z-20 w-full flex">
       {!isPlaying && (
         <button
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors w-[120px] mx-auto"

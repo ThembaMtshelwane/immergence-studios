@@ -9,6 +9,7 @@ export default {
       md: "7s",
     },
     extend: {
+      scrollBehavior: ["smooth"],
       screens: {
         xsm: "580px",
         lmd: "880px",
