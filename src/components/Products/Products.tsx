@@ -19,7 +19,7 @@ const Products = ({
   return (
     <section className="relative min-h-screen z-10 " id="products">
       <div className="absolute top-0 h-full w-full backdrop-blur-md -z-10"></div>
-      {/* <h2 className=" flex justify-self-center my-auto">Products</h2> */}
+      <h2 className=" flex justify-self-center my-10 lmd:hidden ">Products</h2>
 
       <section className=" sm:flex ">
         <section className="sm:w-[50%] lg: flex-1 " id="services">
