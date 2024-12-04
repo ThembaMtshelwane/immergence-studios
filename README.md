@@ -24,10 +24,6 @@ Building this website has been a valuable learning experience, particularly in c
 - Using Email.js for the contact form
 - Using Flowbite footer component for building UI quickly
 
-## Limitations
-
-The curent website does not include all its features, i.e. a section showcaing the contact section.
-
 ## Live Website
 
 Please check it out. I am always open for suggestions and collaboration [Immergence Studios](https://immergence-studios.vercel.app/)
